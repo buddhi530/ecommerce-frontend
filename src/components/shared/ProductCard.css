@@ -1,0 +1,19 @@
+.product-card{
+text-align: center;
+}
+.product-card-image{
+height: 500px;
+width: 100%;
+object-fit: cover;
+}
+.product-card-name{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    
+}
+.product-card-price{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}

@@ -1,0 +1,45 @@
+.regidter-container{
+    /* background-color: blue; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form{
+   display: flex;
+   flex-direction: column;
+   min-width: 30rem;
+}
+
+h2{
+   letter-spacing: 0.01rem;
+   text-align: center;
+   margin: 0%;
+}
+
+p{
+   text-align: center;
+}
+
+input {
+   padding-top: 0.9rem;
+   padding-bottom: 0.9rem;
+   padding-left: 1rem;
+   margin-bottom: 0.5rem;
+}
+button{
+   background-color: black;
+   color: aliceblue;
+   padding-top: 0.9rem;
+   padding-bottom: 0.9rem;
+   text-transform: uppercase;
+   letter-spacing: 0.15rem;
+   border: 1px solid black;
+}
+
+.register-link{
+   text-align: center;
+   text-decoration: none;
+   margin-top: 1rem;
+}

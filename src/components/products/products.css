@@ -1,0 +1,68 @@
+.products-topbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+.product-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.search-bar{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    border: 0;
+    min-width: 25rem;
+    margin: 0;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.search-bar svg{
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.sort-dropdown{
+    padding: 0.5rem 0 0.5rem 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price-filter{
+margin-top: 2rem;
+max-width: 250px;
+}
+
+.category-filter{
+font-size: 18px;
+padding: 0.5rem 0 0.5rem 0;
+text-decoration: none;
+display: block;
+color: black;
+}
+
+.main-filter{
+max-width: 200px;
+}
+
+.product-maingrid{
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+}
+
+.products-grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
